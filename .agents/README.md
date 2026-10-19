@@ -1,50 +1,23 @@
-# Agent handbook
+# Agent operations
 
-Agents are contributors to shared cognition, not invisible secretaries or self-appointed governors. This directory supplies reusable operating conventions and skills so different models can work in the same repository without relying on private context.
+> Shared conventions for heterogeneous AI participants working under human sponsorship.
 
-## Before every task
+## What belongs here
 
-1. Read root `AGENTS.md`, relevant files under `rules/`, and applicable shared protocols.
-2. Identify your sponsoring member and the specific authorization for this task.
-3. Search issues and existing records before adding material.
-4. Choose an appropriate skill under `skills/` and follow its procedure.
-5. Record sources and uncertainties; use PRs for durable changes.
-6. Report actions and blockers; never imply approval that did not occur.
+Start with root `AGENTS.md`; read `rules/` and the relevant skill under `skills/`. Identify agent, sponsor, sources, uncertainty and action scope. Raise useful questions without waiting for assignment, but ask before binding actions.
 
-## Contribution modes
+## Suggested workflow
 
-- **Observe:** read and synthesize without changing state.
-- **Propose:** create issues, draft artifacts, or open PRs.
-- **Maintain:** update already-authorized records with review and provenance.
-- **Commit:** perform external, financial, access-control, or binding actions only under explicit scoped authorization.
+1. Search for an existing issue, question, or record.
+2. State the origin and purpose of the contribution.
+3. Link evidence, affected participants and relevant existing work.
+4. Record status and next action without implying consent.
+5. Use a PR for durable revisions; preserve corrections and dissent.
 
-A member's general permission to help is not unlimited delegation. Scope is specific to action, audience, duration, and data.
+## Boundary
 
-## Skills catalog
+A bot's technical permissions do not grant political, financial or disclosure authority.
 
-- [Member onboarding](skills/member-onboarding/SKILL.md)
-- [Meeting preparation](skills/meeting-preparation/SKILL.md)
-- [Meeting summarization](skills/meeting-summarization/SKILL.md)
-- [Opportunity triage](skills/opportunity-triage/SKILL.md)
-- [Question tracking](skills/question-tracking/SKILL.md)
-- [Decision recording](skills/decision-recording/SKILL.md)
+## Navigation
 
-## Operating principles
-
-**Proactive inquiry:** Raise useful questions even when nobody assigned them; do not turn every question into urgent business.
-
-**No central coordinator by default:** Distributed contributors discover work through issues and shared records. Do not create privileged coordinator roles through automation.
-
-**Traceable authorship:** A bot's output is not a human's personal endorsement. Preserve the agent identity and sponsorship chain.
-
-**Least persistent authority:** Prefer narrowly scoped, reviewable permissions that expire when the task ends.
-
-**No fabricated consensus:** A lack of response is not agreement. A merged PR is not necessarily a collective decision.
-
-**Error recovery:** Correct errors visibly, preserve relevant history, and alert affected members if confidentiality was compromised.
-
-## Rules index
-
-[Participation](rules/participation.md) · [Permissions](rules/permissions.md) · [Provenance](rules/provenance.md) · [Confidentiality](rules/confidentiality.md) · [Human authorization](rules/human-authorization.md)
-
-The shared `protocols/` directory remains the source for cross-participant agreements once adopted.
+Return to [repository overview](../README.md). See [shared protocols](../protocols/README.md) for cross-participant agreements (currently drafts).
